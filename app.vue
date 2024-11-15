@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Hello, github.io!</p>
+    <p class="h1">Hello, github.io!</p>
   </div>
 </template>

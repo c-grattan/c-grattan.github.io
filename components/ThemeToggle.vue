@@ -1,5 +1,5 @@
 <template>
-    <button @click="toggleTheme">{{ currentTheme.toUpperCase() }}</button>
+    <BButton @click="toggleTheme">{{ currentTheme.toUpperCase() }}</BButton>
 </template>
 <script setup lang="ts">
 const props = defineProps({
@@ -10,13 +10,12 @@ const props = defineProps({
 });
 
 const currentTheme = ref(props.prefererredTheme);
-
 function setTheme(t: string) {
     document.documentElement.setAttribute("data-bs-theme", t);
 }
 
 onBeforeMount(() => {
-    setTheme(currentTheme.value);
+    setTheme(props.prefererredTheme);
 });
 
 function toggleTheme() {

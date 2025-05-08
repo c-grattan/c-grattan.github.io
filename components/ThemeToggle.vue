@@ -8,16 +8,13 @@ const props = defineProps({
         required: true
     }
 });
-
 const currentTheme = ref(props.prefererredTheme);
 function setTheme(t: string) {
     document.documentElement.setAttribute("data-bs-theme", t);
 }
-
 onBeforeMount(() => {
     setTheme(props.prefererredTheme);
 });
-
 function toggleTheme() {
     currentTheme.value = currentTheme.value === 'dark'
     ? 'light'

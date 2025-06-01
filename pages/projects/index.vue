@@ -1,6 +1,6 @@
 <template>
     <p>Projects main page</p>
-    <LinksList :links="projects" />
+    <LinksList :links="projects" :target-blank="true" />
 </template>
 <script setup lang="ts">
 import type { Link } from '~/components/LinksList.vue';

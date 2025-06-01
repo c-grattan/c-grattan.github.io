@@ -5,7 +5,7 @@
         <BNavbarToggle target="nav-collapse" />
         <BCollapse id="nav-collapse" is-nav>
             <BNavbarNav align="start">
-                <BNavItem to="/posts/">Posts</BNavItem>
+                <BNavItem to="/recipes/">Recipes</BNavItem>
                 <BNavItem to="/projects/">Projects</BNavItem>
             </BNavbarNav>
             <BNavbarNav class="w-100" align="end">

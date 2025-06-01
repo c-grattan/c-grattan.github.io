@@ -3,7 +3,7 @@
     <LinksList :links="posts" />
 </template>
 <script setup lang="ts">
-import type { Link } from '~/components/LinksList.vue';
+import type { Link } from '../../components/LinksList.vue';
 
 const posts: Link[] = [
     {

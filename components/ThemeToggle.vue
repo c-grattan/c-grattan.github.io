@@ -10,7 +10,7 @@ const props = defineProps({
 });
 const currentTheme = ref(props.prefererredTheme);
 function setTheme(t: string) {
-    document.documentElement.setAttribute("data-bs-theme", t);
+    document.getElementsByTagName('html')[0].setAttribute("data-bs-theme", t);
 }
 onBeforeMount(() => {
     setTheme(props.prefererredTheme);

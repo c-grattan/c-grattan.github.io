@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run generate",
-    "deploy": "gh-pages -b master -d dist",
+    "deploy": "gh-pages -b master -d dist --nojekyll",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",

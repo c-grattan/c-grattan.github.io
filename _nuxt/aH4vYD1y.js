@@ -1,0 +1,1 @@
+import{_ as o}from"./Bl_JLofh.js";import{g as n,c as a,o as r,a as i,b as p,F as m}from"./CivK03Of.js";import"./BCHUD9OP.js";const d=n({__name:"index",setup(c){const t=[{title:"2025 Year in Review",route:"/posts/yearinreview2025"}];return(_,e)=>{const s=o;return r(),a(m,null,[e[0]||(e[0]=i("p",null,"Posts",-1)),p(s,{links:t})],64)}}});export{d as default};

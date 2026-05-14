@@ -1,0 +1,1 @@
+import{_ as s,u as r,q as _}from"./uXbFwYE9.js";import{g as c,k as u,l as p,j as l,m,o as i}from"./DknM69BJ.js";const k=c({__name:"[...slug]",async setup(f){let t,e;const n=u(),{data:a}=([t,e]=p(()=>r(n.path,()=>_("content").path(n.path).first(),"$z_FWH_1nX1")),t=await t,e(),t);return(h,d)=>{const o=s;return i(),l(o,{value:m(a)},null,8,["value"])}}});export{k as default};
